@@ -1,0 +1,15 @@
+.slide-bg1 {
+    /*background:url(../images/main_slide/luft_banner1.jpg);*/
+    background-color: white;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-bg2 {
+    background:url(../images/main_slide/traits_banner2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+/*
+.slide-logo{
+	color:black;
+}*/
