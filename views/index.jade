@@ -63,3 +63,15 @@ html
 						p Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, 
 							a(href="#") tellus ac cursus commodo
 							, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna.
+		div(class="grid-icon-container newsletter scroll-target")
+			section(class="container")
+				div(class="row")
+					div(class="row form-holder")
+						form(class="form-inline contact-form-section", id="subscribe", role="form", action="/subscribe", name="ajax", method="post", novalidate="novalidate")
+							div(class="col-lg-8 col-md-8 col-sm-8 col-md-offset-2")
+								p(style="display:inline;padding-right:20px;") Sign Up for news and product announcements
+									span 
+										input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="sInputEmail", id="sInputEmail", placeholder="email address", required="required")
+										button(type="submit", id="submit-email", style="display:inline;", class="btn-send") Submit Address
+						div#resp
+						div#error
