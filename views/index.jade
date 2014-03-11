@@ -124,3 +124,52 @@ html
 						a(href="http://saryantumanyan.com/")
 							img(src="/img/partners/saryantumanyan_logo.png", class="img-responsive", alt="saryantumanyan")
 		section(class="dt-google-map-section")
+			div(id="map", data-latitude="33.2051904396651", data-longitude="-19.152469500000045", data-marker-url="/img/map_marker.png")
+			div(class="map")
+				div(class="map-info hidden-xs")
+					div.container
+						div.row
+							div(class="col col-sm-4")
+								div(class="icon-container")
+									img(src="", class="flag flag-us", alt="USA")
+								address(class="address") New York, USA
+									br 173 Varick St, Floor 2
+							div(class="col col-sm-4")
+                            	div(class="icon-container")
+                                	img(src="", class="flag flag-de", alt="Germany")
+                            	address(class="address") Berlin, Germany
+                            		br Im Bauernbusch 27
+                        	div(class="col col-sm-4")
+                            	div(class="icon-container")
+                                	img(src="", class="flag flag-am", alt="Armenia")
+                            	address(class="address") Yerevan, Armenia
+                            		br 39 Tumanyan St, Floor 1
+		div(class="container", id="contact-form")
+        	div(class="row")
+            	section(class="contact-form-blog")
+                	div(class="row")
+                    	div(class="section-head")
+                        	header(class="col col-xs-12 centered")
+                            	section
+                                	h2 Contact us
+                            	hr
+                            	p(class="descriptionText") We'll promptly get back to you about project and availability inquiries.
+            		div(class="row")
+                    	div(class="col-xs-12 col-sm-12 col-md-10 col-xs-offset-0 col-md-offset-1")
+                        	form(class="form-inline", role="form", id="dt-contact-form",  method="post", action="/Message", novalidate="novalidate")
+                            	div(class="col-md-4")
+	                                div(class="form-group col-xs-12")
+	                                    input(type="text", class="form-control", name="inputFullname", id="inputFullname", placeholder="full name", pattern="[a-zA-Z]", required="")
+	                                div(class="form-group col-xs-12")
+	                                    input(type="email", class="form-control", name="inputEmail", id="inputEmail", placeholder="email address", required="")
+	                                div(class="form-group col-xs-12")
+                                    	input(type="text", class="form-control", name="inputPhone", id="inputPhone", placeholder="phone number")
+                            	div(class="col-md-8")
+                                	div(class="form-group col-xs-12")
+                                    	textarea(class="form-control", rows="3", name="inputMessage", id="inputMessage", placeholder="your message", required="")
+                                	div(class="form-group col-xs-12")
+                                    	button(type="submit", class="btn-send") Send Message
+                                    	div(class="success")
+                                    		div(class="icon-ok-5") Email sent !
+                                    		div(class="fail")
+                                    			div(class="icon-attention") Failed to send Email !
