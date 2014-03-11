@@ -1,0 +1,104 @@
+doctype html
+html
+	head
+		title Traits Inc. - Blog
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(href="/css/bootstrap.css", rel="stylesheet", media="screen")
+		link(href="/css/fontello.css", rel="stylesheet", media="screen")
+		link(href="/css/mystyle.css", rel="stylesheet", media="screen")
+		link(href="/css/shop_slider.css", rel="stylesheet", media="screen")
+		link(href="/css/slider.css", rel="stylesheet", media="screen")
+		link(href="/css/slider_2.css", rel="stylesheet", media="screen")
+		link(href="/css/sub_slider.css", rel="stylesheet", media="screen")
+		link(href="/css/twitter_slider.css", rel="stylesheet", media="screen")
+		link(href="/css/slide_background.css", rel="stylesheet", media="screen")
+		link(href="/css/shop_slider_background.css", rel="stylesheet", media="screen")
+		link(href="/css/subpage_banners.css", rel="stylesheet", media="screen")
+		link(href="/css/jrating.jquery.css", rel="stylesheet", media="screen")
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800', rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic', rel='stylesheet', type='text/css')
+		script(type="text/javascript", src="/js/modernizr.js")
+		script(type="text/javascript", src="/js/bootstrap.js")
+		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false")
+		script(type="text/javascript", src="/js/google_map.js")
+	body(class="blog_post")
+		nav(class="navbar navbar-default navbar-fixed-top", role="navigation")
+			div(class="container")
+				div(class="row", id="menu-logo")
+					div(class="col col-sm-12 logos")
+						div(class="navbar-header")
+							a(class="navbar-brand", href="#")
+								img(src="/images/letterhead-mark.png", alt="Logo")
+					div(class="right-cell")
+						form(class="navbar-form navbar-right")
+							ul
+								li
+									a(href="#") Blog
+	
+		div(class="blog-single-post sidebar-left")
+			div(class="container")
+				div(class="row")
+					div(class="col-sm-4 sidebar")
+						div(class="widget widget-category")
+							h3 Blog List
+							ul(class="list-unstyled")
+								li(class="category-list")
+									a(href="#") About Health
+								li(class="category-list")
+									a(href="#") My Experience
+								li(class="category-list")
+									a(href="#") My Travel
+								li(class="category-list")
+									a(href="#") My Wishes
+										
+					div(class="col-sm-8")
+						div(class="row")
+							div(class="col-sm-2")
+								img(src="/images/author_avatar_1.jpg", class="author-avatar img-circle img-responsive", alt="Avatar")
+							div(class="col-sm-10")
+								h2(class="post-title") Etiam Pellentesque Inceptos Consectetur
+								div(class="row meta-info")
+									div(class="col-sm-6 col-md-3 info")
+										span
+											i(class="icon-clock-circled") 29 January 2014
+								div(class="post-article")
+									p Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit tempus porttitor. Cras mattis consectetur purus sit amet fermentum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+									p Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+									h4 Etiam Venenatis Mattis Vehicula
+									p Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+									blockquote Superortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Praesent commodo cursus magna
+									p Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+								hr
+								div(class="social-share")
+									div(class="row")
+										div(class="col-xs-6 share-text") Share
+										div(class="col-xs-6 share-button")
+											div(class="btn-group")
+												a(href="#", class="btn btn-default")
+													i(class="icon-facebook")
+												a(href="#", class="btn btn-default")
+													i(class="icon-gplus")
+												a(href="#", class="btn btn-default")
+													i(class="icon-twitter")
+												a(href="#", class="btn btn-default")
+													i(class="icon-dribbble")
+		footer
+			section(class="container footer-section")
+				div(class="col-lg-5 col-xs-12")
+					p &copy; 2014 Traits Inc. All right reserved
+				div(class="col-lg-7 footer-menu")
+					form(class="form-inline contact-form-section", role="form", action="/subscribe", novalidate="novalidate", id="subscribeFooter", style="float: right;margin-top: -100px;")
+						div(style="width:370px;")
+							label NEWSLETTER
+							br
+							input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="subInputEmail", id="subInputEmail", placeholder="email address", required="")
+							button(type="submit", style="display:inline;", class="btn-send", id="submit-email-footer") Subscribe        
+				div#respF
+				div#errorF
+			section(class="ss-style-doublediagonal", data-type="background", data-speed="10")
+		div(class="md-overlay")
+		div(class="jquery-media-detect")	
+		script(type="text/javascript", src="/js/jrating.jquery.js")
+		script(type="text/javascript", src="/js/myscript.js")
+		script(type="text/javascript", src="/js/modal_effects.js")
