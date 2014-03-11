@@ -9296,7 +9296,7 @@ section#what-we-can-do,section#what-we-can-do .grid-icon{
 .flag {
     width: 16px;
     height: 11px;
-    background:url(../images/flags.png) no-repeat
+    background:url(../img/flags.png) no-repeat
 }
 
 .flag.flag-am {background-position: -16px 0}

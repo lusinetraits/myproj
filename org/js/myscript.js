@@ -344,8 +344,8 @@ $(function() { //When the document loads
 
 (function(iniframe){
 	'use strict';
-	document.writeln('<script src="_/js/core.js"></script>');
-	document.writeln('<script src="_/js/scrollspy.js"></script>');
+	document.writeln('<script src="/js/core.js"></script>');
+	document.writeln('<script src="/js/scrollspy.js"></script>');
 })(window !== window.parent);
 /* --- Counter Functions--- */
 function dtDoCounter($this,$to) {
