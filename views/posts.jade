@@ -1,27 +1,6 @@
 doctype html
 html
-	head
-		title Traits Inc. - Blog
-		meta(charset="utf-8")
-		meta(name="viewport", content="width=device-width, initial-scale=1.0")
-		link(href="/css/bootstrap.css", rel="stylesheet", media="screen")
-		link(href="/css/fontello.css", rel="stylesheet", media="screen")
-		link(href="/css/mystyle.css", rel="stylesheet", media="screen")
-		link(href="/css/shop_slider.css", rel="stylesheet", media="screen")
-		link(href="/css/slider.css", rel="stylesheet", media="screen")
-		link(href="/css/slider_2.css", rel="stylesheet", media="screen")
-		link(href="/css/sub_slider.css", rel="stylesheet", media="screen")
-		link(href="/css/twitter_slider.css", rel="stylesheet", media="screen")
-		link(href="/css/slide_background.css", rel="stylesheet", media="screen")
-		link(href="/css/shop_slider_background.css", rel="stylesheet", media="screen")
-		link(href="/css/subpage_banners.css", rel="stylesheet", media="screen")
-		link(href="/css/jrating.jquery.css", rel="stylesheet", media="screen")
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800', rel='stylesheet', type='text/css')
-		link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic', rel='stylesheet', type='text/css')
-		script(type="text/javascript", src="/libs/modernizr.js")
-		script(type="text/javascript", src="/js/bootstrap.js")
-		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false")
-		script(type="text/javascript", src="/js/google_map.js")
+	include layouts/header
 	body(class="blog-classic")
 		nav(class="navbar navbar-default navbar-fixed-top", role="navigation")
 			div(class="container")
@@ -60,23 +39,4 @@ html
 												span(class="paging-text paging-inline") Newer Post
 												span(class="btn-arrow paging-inline")
 													i(class="icon-right-open-big")
-		footer
-			section(class="container footer-section")
-				div(class="col-lg-5 col-xs-12")
-					p &copy; 2014 DeTheme, The Awesome Theme. All right reserved
-				div(class="col-lg-7 footer-menu")
-					form(class="form-inline contact-form-section", role="form", action="/subscribe", novalidate="novalidate", id="subscribeFooter", style="float: right;margin-top: -100px;")
-						div(style="width:370px;")
-							label NEWSLETTER
-							br
-							input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="subInputEmail", id="subInputEmail", placeholder="email address", required="")
-							button(type="submit", style="display:inline;", class="btn-send", id="submit-email-footer") Subscribe
-					div#respF
-					div#errorF
-			section(class="ss-style-doublediagonal", data-type="background", data-speed="10")		
-
-		div(class="md-overlay")
-		div(class="jquery-media-detect")
-		script(type="text/javascript", src="/js/jrating.jquery.js")
-		script(type="text/javascript", src="/js/myscript.js")
-		script(type="text/javascript", src="/js/modal_effects.js")
+		include layouts/footer

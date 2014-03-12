@@ -1,193 +1,126 @@
 doctype html
 html
-	head
-		title Traits Inc.
-		meta(charset="utf-8")
-		meta(http-equiv="X-UA-Compatible", content="IE=8")
-		meta(http-equiv="Content-Type", content="text/html; charset=ISO-8859-1")
-		meta(name="viewport", content="initial-scale=1.0,width=device-width,user-scalable=no")
-		meta(charset="utf-8")
-		link(rel='stylesheet', href='/less/style.css')
-		link(href="/css/bootstrap.css", rel="stylesheet",media="screen")
-		link(href="/css/fontello.css", rel="stylesheet",media="screen")
-		link(href="/css/mystyle.css", rel="stylesheet",media="screen")
-		link(href="/css/shop_slider.css", rel="stylesheet",media="screen")
-		link(href="/css/slider.css", rel="stylesheet",media="screen")
-		link(href="/css/slider_2.css", rel="stylesheet",media="screen")
-		link(href="/css/sub_slider.css", rel="stylesheet",media="screen")
-		link(href="/css/twitter_slider.css", rel="stylesheet",media="screen")
-		link(href="/css/slide_background.css", rel="stylesheet",media="screen")
-		link(href="/css/shop_slider_background.css", rel="stylesheet",media="screen")
-		link(href="/css/subpage_banners.css", rel="stylesheet",media="screen")
-		link(href="/css/jrating.jquery.css", rel="stylesheet",media="screen")
-		link(href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800',rel='stylesheet',type='text/css')
-		link(href='https://fonts.googleapis.com/css?family=Lora:400,400italic',rel='stylesheet',type='text/css')
-
-		script(type="text/javascript", src="/libs/modernizr.js")
-		script(type="text/javascript", src="/js/bootstrap.js")
-		script(type="text/javascript", src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false")
-		script(type="text/javascript", src="/js/google_map.js")
-		link(rel="shortcut icon", href="/favicon.ico" type="image/x-icon")
-		link(rel="icon",href="/favicon.ico",type="image/x-icon")
-			
-		script(type='text/javascript', src='/libs/spin.js')
-		script(type='text/javascript', src='/js/init.js')
-		script(type='text/javascript', data-main='/js/main', src='/libs/requirejs/require.js')
-
-	body(class="home")
-		//div(id="___spin")
-		nav(class="navbar navbar-default navbar-fixed-top", role="navigation")
-			div(class="container")
-				div(class="row", id="menu-logo")
-					div(class="col col-sm-12 logos")
-						div(class="navbar-header")
-							a(class="navbar-brand", href="#")
-								img(src="/img/letterhead-mark.png", alt="Logo")
-					div(class="right-cell")
-						form(class="navbar-form navbar-right")
-							ul 
-								li 
-									a(href="#") Blog
-		div(class="container mainabout")
-			div(class="detail-product-top-part")
-				div(class="col-sm-5")
-					img(class="img-responsive big-thumbnail", src="/img/tn_big_detail_product.jpg", alt="Tshirt Image")
-				div(class="col-sm-6")
-					div(class="detail-product-title")
-						h2 Wicked SS O-Neck Selected Homme
-					div(class="detail-product-short-description")
-						p Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, 
-							a(href="#") tellus ac cursus commodo
-							, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna.
-		div(class="grid-icon-container newsletter scroll-target")
-			section(class="container")
-				div(class="row")
-					div(class="row form-holder")
-						form(class="form-inline contact-form-section", id="subscribe", role="form", action="/subscribe", name="ajax", method="post", novalidate="novalidate")
-							div(class="col-lg-8 col-md-8 col-sm-8 col-md-offset-2")
-								p(style="display:inline;padding-right:20px;") Sign Up for news and product announcements
-								span 
-									input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="sInputEmail", id="sInputEmail", placeholder="email address", required="required")
-									button(type="submit", id="submit-email", style="display:inline;", class="btn-send") Submit Address
-						div#resp
-						div#error
-			svg(id="bigTriangleColor", xmlns="http://www.w3.org/2000/svg", version="1.1", width="100%", height="100", viewBox="0 0 100 102", preserveAspectRatio="none")
-				path(d="M0 0 L50 50 L100 0 Z")
-		section(id="what-we-can-do")
-			div(class="container")
-				div(class="row grid-icon-container")
-					section(class="container grid-icon")
-						div(class="row")
-							div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:300}")
-								span
-									i(class="icon-eye")
-								h4 Biometrics
-								p Our primary goals lie in development of innovative products in the biometrics, security, and connected devices space.
-							div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:600}")
-								span
-									i(class="icon-share-1")
-								h4 Platform
-								p We understand today’s requirements of being globally connected, accessible, and secure, striving to develop every product under this philosophy.
-							div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:900}")
-								span
-									i(class="icon-drive")
-								h4 Hardware
-								p In addition to software, we have extensive expertise in hardware and embedded systems design and development.
-							div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:1300}")
-								span
-									i(class="icon-users-1")
-								h4 Consulting
-								p Traits provides consulting and advisory services for our partners and outside clients, lending our creativity and expertise to a wide range of small and medium size research and development projects.
-		section(class="client-logos")
-			div(class="container")
-				div.row
-					div.section-head
-						header(class="col col-sm-12 centered")
-							section
-								h2 PARTNERS &amp; INITIATIVES
-				div.row
-					div(class="testimoni col-sm-4 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left'}")
-						a(href="http://biometricsys.de/")
-							img(src="/img/partners/abs-logo.png", class="img-responsive", alt="abs")
-					div(class="testimoni col-sm-4 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:400}")
-						a(href="https://www.livesqrd.com/")
-							img(src="/img/partners/livesqrd_logo.png", class="img-responsive", alt="livesqrd")
-					div(class="testimoni col-sm-4 col-xs-6 miner", data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:400}")
-						a(href="https://minerapp.com/")
-							img(src="/img/partners/miner_logo.png", class="img-responsive", alt="miner")
-				br 
-				div.row
-					div(class="testimoni col-sm-7 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left'}")
-						a(href="http://dendritecorp.com/")
-							img(src="/img/partners/dendritecorp_logo.png", class="img-responsive", alt="thedendritecorp")
-					div(class="testimoni col-sm-3 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-right'}")
-						a(href="http://saryantumanyan.com/")
-							img(src="/img/partners/saryantumanyan_logo.png", class="img-responsive", alt="saryantumanyan")
-		section(class="dt-google-map-section")
-			div(id="map", data-latitude="33.2051904396651", data-longitude="-19.152469500000045", data-marker-url="/img/map_marker.png")
-			div(class="map")
-				div(class="map-info hidden-xs")
-					div.container
-						div.row
-							div(class="col col-sm-4")
-								div(class="icon-container")
-									img(src="", class="flag flag-us", alt="USA")
-								address(class="address", style='white-space:pre;') New York, USA <br/> 173 Varick St, Floor 2
-							div(class="col col-sm-4")
-								div(class="icon-container")
-									img(src="", class="flag flag-de", alt="Germany")
-								address(class="address") Berlin, Germany <br/> Im Bauernbusch 27
-							div(class="col col-sm-4")
-								div(class="icon-container")
-									img(src="", class="flag flag-am", alt="Armenia")
-								address(class="address") Yerevan, Armenia <br/> 39 Tumanyan St, Floor 1
-		div(class="container", id="contact-form")
+	include layouts/header
+	div(class="container mainabout")
+		div(class="detail-product-top-part")
+			div(class="col-sm-5")
+				img(class="img-responsive big-thumbnail", src="/img/tn_big_detail_product.jpg", alt="Tshirt Image")
+			div(class="col-sm-6")
+				div(class="detail-product-title")
+					h2 Wicked SS O-Neck Selected Homme
+				div(class="detail-product-short-description")
+					p Vestibulum id ligula porta felis euismod semper. Sed posuere consectetur est at lobortis. Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor fringilla. Fusce dapibus, 
+						a(href="#") tellus ac cursus commodo
+						, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna.
+	div(class="grid-icon-container newsletter scroll-target")
+		section(class="container")
 			div(class="row")
-				section(class="contact-form-blog")
+				div(class="row form-holder")
+					form(class="form-inline contact-form-section", id="subscribe", role="form", action="/subscribe", name="ajax", method="post", novalidate="novalidate")
+						div(class="col-lg-8 col-md-8 col-sm-8 col-md-offset-2")
+							p(style="display:inline;padding-right:20px;") Sign Up for news and product announcements
+							span 
+								input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="sInputEmail", id="sInputEmail", placeholder="email address", required="required")
+								button(type="submit", id="submit-email", style="display:inline;", class="btn-send") Submit Address
+					div#resp
+					div#error
+		svg(id="bigTriangleColor", xmlns="http://www.w3.org/2000/svg", version="1.1", width="100%", height="100", viewBox="0 0 100 102", preserveAspectRatio="none")
+			path(d="M0 0 L50 50 L100 0 Z")
+	section(id="what-we-can-do")
+		div(class="container")
+			div(class="row grid-icon-container")
+				section(class="container grid-icon")
 					div(class="row")
-						div(class="section-head")
-							header(class="col col-xs-12 centered")
-								section
-									h2 Contact us
-								hr
-								p(class="descriptionText") We'll promptly get back to you about project and availability inquiries.
-					div(class="row")
-						div(class="col-xs-12 col-sm-12 col-md-10 col-xs-offset-0 col-md-offset-1")
-							form(class="form-inline", role="form", id="dt-contact-form",  method="post", action="/Message", novalidate="novalidate")
-								div(class="col-md-4")
-									div(class="form-group col-xs-12")
-										input(type="text", class="form-control", name="inputFullname", id="inputFullname", placeholder="full name", pattern="[a-zA-Z]", required="")
-									div(class="form-group col-xs-12")
-										input(type="email", class="form-control", name="inputEmail", id="inputEmail", placeholder="email address", required="")
-									div(class="form-group col-xs-12")
-										input(type="text", class="form-control", name="inputPhone", id="inputPhone", placeholder="phone number")
-								div(class="col-md-8")
-									div(class="form-group col-xs-12")
-										textarea(class="form-control", rows="3", name="inputMessage", id="inputMessage", placeholder="your message", required="")
-									div(class="form-group col-xs-12")
-										button(type="submit", class="btn-send") Send Message
-										div(class="success")
-											div(class="icon-ok-5") Email sent !
-											div(class="fail")
-												div(class="icon-attention") Failed to send Email !
-		footer
-			section(class="container footer-section")
-				div(class="col-lg-5 col-xs-12")
-					p &copy; 2014 Traits Inc. All right reserved
-				div(class="col-lg-7 footer-menu")
-					form(class="form-inline contact-form-section", role="form", action="/subscribe", novalidate="novalidate", id="subscribeFooter", style="float: right;margin-top: -100px;")
-						div(style="width:370px;")
-							label NEWSLETTER
-							br
-							input(type="email", style="display:inline;width:230px;height:37px;", class="form-control", name="subInputEmail", id="subInputEmail", placeholder="email address", required="")
-							button(type="submit", style="display:inline;", class="btn-send", id="submit-email-footer") Subscribe                
-					div(id="respF")
-					div(id="errorF")
-			section(class="ss-style-doublediagonal", data-type="background", data-speed="10")
-
-		div(class="md-overlay")
-		div(class="jquery-media-detect")
-		script(type="text/javascript", src="/js/jrating.jquery.js")
-		script(type="text/javascript", src="/js/myscript.js")
-		script(type="text/javascript", src="/js/modal_effects.js")
-		script(type="text/javascript", src="/js/mailChimp-mailing.js")
+						div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:300}")
+							span
+								i(class="icon-eye")
+							h4 Biometrics
+							p Our primary goals lie in development of innovative products in the biometrics, security, and connected devices space.
+						div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:600}")
+							span
+								i(class="icon-share-1")
+							h4 Platform
+							p We understand today’s requirements of being globally connected, accessible, and secure, striving to develop every product under this philosophy.
+						div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:900}")
+							span
+								i(class="icon-drive")
+							h4 Hardware
+							p In addition to software, we have extensive expertise in hardware and embedded systems design and development.
+						div(class="col col-sm-6 col-md-3", data-uk-scrollspy="{cls:'uk-animation-fade', delay:1300}")
+							span
+								i(class="icon-users-1")
+							h4 Consulting
+							p Traits provides consulting and advisory services for our partners and outside clients, lending our creativity and expertise to a wide range of small and medium size research and development projects.
+	section(class="client-logos")
+		div(class="container")
+			div.row
+				div.section-head
+					header(class="col col-sm-12 centered")
+						section
+							h2 PARTNERS &amp; INITIATIVES
+			div.row
+				div(class="testimoni col-sm-4 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left'}")
+					a(href="http://biometricsys.de/")
+						img(src="/img/partners/abs-logo.png", class="img-responsive", alt="abs")
+				div(class="testimoni col-sm-4 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left', delay:400}")
+					a(href="https://www.livesqrd.com/")
+						img(src="/img/partners/livesqrd_logo.png", class="img-responsive", alt="livesqrd")
+				div(class="testimoni col-sm-4 col-xs-6 miner", data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:400}")
+					a(href="https://minerapp.com/")
+						img(src="/img/partners/miner_logo.png", class="img-responsive", alt="miner")
+			br 
+			div.row
+				div(class="testimoni col-sm-7 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-left'}")
+					a(href="http://dendritecorp.com/")
+						img(src="/img/partners/dendritecorp_logo.png", class="img-responsive", alt="thedendritecorp")
+				div(class="testimoni col-sm-3 col-xs-6", data-uk-scrollspy="{cls:'uk-animation-slide-right'}")
+					a(href="http://saryantumanyan.com/")
+						img(src="/img/partners/saryantumanyan_logo.png", class="img-responsive", alt="saryantumanyan")
+	section(class="dt-google-map-section")
+		div(id="map", data-latitude="33.2051904396651", data-longitude="-19.152469500000045", data-marker-url="/img/map_marker.png")
+		div(class="map")
+			div(class="map-info hidden-xs")
+				div.container
+					div.row
+						div(class="col col-sm-4")
+							div(class="icon-container")
+								img(src="", class="flag flag-us", alt="USA")
+							address(class="address", style='white-space:pre;') New York, USA <br/> 173 Varick St, Floor 2
+						div(class="col col-sm-4")
+							div(class="icon-container")
+								img(src="", class="flag flag-de", alt="Germany")
+							address(class="address") Berlin, Germany <br/> Im Bauernbusch 27
+						div(class="col col-sm-4")
+							div(class="icon-container")
+								img(src="", class="flag flag-am", alt="Armenia")
+							address(class="address") Yerevan, Armenia <br/> 39 Tumanyan St, Floor 1
+	div(class="container", id="contact-form")
+		div(class="row")
+			section(class="contact-form-blog")
+				div(class="row")
+					div(class="section-head")
+						header(class="col col-xs-12 centered")
+							section
+								h2 Contact us
+							hr
+							p(class="descriptionText") We'll promptly get back to you about project and availability inquiries.
+				div(class="row")
+					div(class="col-xs-12 col-sm-12 col-md-10 col-xs-offset-0 col-md-offset-1")
+						form(class="form-inline", role="form", id="dt-contact-form",  method="post", action="/Message", novalidate="novalidate")
+							div(class="col-md-4")
+								div(class="form-group col-xs-12")
+									input(type="text", class="form-control", name="inputFullname", id="inputFullname", placeholder="full name", pattern="[a-zA-Z]", required="")
+								div(class="form-group col-xs-12")
+									input(type="email", class="form-control", name="inputEmail", id="inputEmail", placeholder="email address", required="")
+								div(class="form-group col-xs-12")
+									input(type="text", class="form-control", name="inputPhone", id="inputPhone", placeholder="phone number")
+							div(class="col-md-8")
+								div(class="form-group col-xs-12")
+									textarea(class="form-control", rows="3", name="inputMessage", id="inputMessage", placeholder="your message", required="")
+								div(class="form-group col-xs-12")
+									button(type="submit", class="btn-send") Send Message
+									div(class="success")
+										div(class="icon-ok-5") Email sent !
+										div(class="fail")
+											div(class="icon-attention") Failed to send Email !
+	include layouts/footer	

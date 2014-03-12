@@ -1,6 +1,6 @@
 module.exports = 
 {
-	 "title" : "Live Sqrd"
+	 "title" : "Traits Inc"
 	,"api"		: {
 				}
 	,"useAuth" 	: false

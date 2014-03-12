@@ -23,6 +23,10 @@
 		app.get("/amILoggedIn",function(req,res){
 			res.send(_.has(req.session,"p"))	
 		})
+
+		/*app.get("/blog",function(req,res){
+			res.send('test blog')	
+		})*/
 	return app;
 	}
 
