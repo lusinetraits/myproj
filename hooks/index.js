@@ -25,7 +25,8 @@
 		})
 
 		app.get("/blog",function(req,res){
-			res.send('test blog')	
+			res.render('posts.jade');
+			//res.send('test blog')	
 		})
 	return app;
 	}
