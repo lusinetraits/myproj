@@ -26,7 +26,6 @@
 
 		app.get("/blog",function(req,res){
 			res.render('posts.jade');
-			//res.send('test blog')	
 		})
 	return app;
 	}
